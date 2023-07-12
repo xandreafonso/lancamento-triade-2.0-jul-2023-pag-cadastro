@@ -347,7 +347,10 @@ SEÇÃO CONTEÚDO EVENTO
 .conteudo-evento__aula-data {
   height: 50px;
 
-  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
   font-weight: 900;
   text-align: center;
   text-transform: uppercase;
@@ -671,6 +674,10 @@ MEDIA QUERIES
 
   .topo:has(> .topo__bg-video) .topo__impacto-descricao-evento {
     margin-top: 3.5rem;
+  }
+
+  .conteudo-evento__aula-data {
+    font-size: 1.5rem;
   }
 
   .autora__sobre-citacao {
